@@ -10,6 +10,8 @@ This project is an improvement of my course project in IS 707- Intelligent Techn
   - So they can hallucinate when performing Q/A tasks on your data.
 # How do we fix it?
   - By indexing your data from databases(structured)/documents(unstructured)/API(programmatic) and storing it in vector database.
+    ![image](https://github.com/Ilurusheshasai/Chatbot-llamaIndex-gemini-RAG/assets/82218555/69246a3d-6da4-4621-a403-af0096fb7a32)
+
 # What is the role of LlamaIndex in this?
   - Offers data connectors to ingest your existing data sources and data formats (APIs, PDFs, docs, SQL, etc.).
   - Provides ways to structure your data (indices, graphs) so that this data can be easily used with LLMs.
