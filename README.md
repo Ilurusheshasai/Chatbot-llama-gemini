@@ -1,6 +1,19 @@
 # Chatbot-llama-gemini
 Trying to create my first Storytelling bot with Q/A, summarizing capabilities using Gemini Flash LLM by integrating it with a vector database using LLamaIndex. 
 This project is an improvement of my course project in IS 707- Intelligent Technologies at UMBC. 
+The initial development of a project can be found here: https://github.com/Ilurusheshasai/multiple-LLM-chatbot
+I have used multiple LLMs to empower chatbots with human-like capabilities in summarizing (extractive (to retrieve important points from stories) and abstraction(to rewrite a sentence without changing the meaning)), Question answering, speaking out the story (using Python gtts module).
+
+So, I have used 3 models and ran them locally. 
+
+Although summarizing the stories is working fairly, I wouldn't say I liked the performance of the QA model, for the following reasons.
+1) It gives correct answers only for a few questions.
+2) On top of that The correct answers are also not convincing because it looks like they give answers giving the exact sentence from the story.
+3) My argument is if there is an LLM that learned a lot from pre-training before, I do not want to train it again by passing questions, context, and answers to work on my local story base. If I had to train it on question answer and context again, I would choose a simple conditional code with TF-IDF to find similarity and answer it.
+5) So, I explored other options and wanted to try RAG using a vector database and knowledge graphs.
+6) This repo is an implementation of an RAG-based vector store to leverage the best output from LLM (Google Gemini pro model) in this case...
+
+The objective was to learn and explore, I might have trained and fine-tuned these models to improve the performance at the same time I looked for easier and better options which led to implementing RAG using LLamaIndex. which I think is a good exposure. So I am happy....
 
 # Why use this Google API?
   - Free up to certain limit
