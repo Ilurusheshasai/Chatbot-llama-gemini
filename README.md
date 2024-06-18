@@ -1,11 +1,11 @@
 # Chatbot-llama-gemini
-Trying to create my first Storytelling bot with Q/A, summarizing capabilities using Gemini Flash LLM by integrating it with a vector database using LLamaIndex. 
-This project is an improvement of my course project in IS 707- Intelligent Technologies at UMBC. 
-The initial development of a project can be found here: https://github.com/Ilurusheshasai/multiple-LLM-chatbot
+Trying to create my first Storytelling bot with Q/A, summarizing capabilities using Gemini Flash LLM by integrating it with a vector database using LLamaIndex.<br>
+This project is an improvement of my course project in IS 707- Intelligent Technologies at UMBC. <br>
+The initial development of a project can be found here: https://github.com/Ilurusheshasai/multiple-LLM-chatbot<br>
 I have used multiple LLMs to empower chatbots with human-like capabilities in summarizing (extractive (to retrieve important points from stories) and abstraction(to rewrite a sentence without changing the meaning)), Question answering, speaking out the story (using Python gtts module).
-
+<br>
 So, I have used 3 models and ran them locally. 
-
+<br>
 Although summarizing the stories is working fairly, I wouldn't say I liked the performance of the QA model, for the following reasons.
 1) It gives correct answers only for a few questions.
 2) On top of that The correct answers are also not convincing because it looks like they give answers giving the exact sentence from the story.
